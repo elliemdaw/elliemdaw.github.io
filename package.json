@@ -1,0 +1,13 @@
+{
+  "name": "elliemarie-website",
+  "version": "0.0.1",
+  "description": "Personal website using angular",
+  "dependencies": {
+    "angular": "^1.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elliemdaw/elliemdaw.github.io"
+  },
+  "author": "Ellie Marie"
+}
