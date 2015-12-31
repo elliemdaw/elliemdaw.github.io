@@ -5,16 +5,24 @@
     <!-- Meta-Information -->
 
     <!-- Vendor -->
+    <link rel="stylesheet/less" type="text/css" href="css/skeleton.less" />
 
     <!-- CSS -->
     <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+    <link rel="stylesheet/less" type="text/css" href="css/nav.less" />
+    <link rel="stylesheet/less" type="text/css" href="css/aboutme.less" />
+
+    <!-- FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <title>Ellie Marie</title>
 
   </head>
   <body ng-app="elliemarie">
     <div ng-controller="MainController" class="background-container">
-      <h1>Ellie Marie</h1>
+      <img src="img/bgblur.jpg"></img>
+      <div ng-include="'templates/nav.html'"></div>
+      <div ng-include="'templates/aboutme.html'"></div>
     </div>
 
     <!-- Vendor Javascripts -->

@@ -4,7 +4,7 @@
   "description": "Personal website using angular",
   "dependencies": {
     "angular": "^1.4.8",
-    "less": "^2.5.3"
+    "less": "^2.5.3",
   },
   "devDependencies": {
     "http-server": "^0.6.1"
