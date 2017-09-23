@@ -326,11 +326,12 @@ span.menu {
 /*--services--*/
 .services {
 	padding: 1em 0 8em 0;
+	margin-left: 4.3vw !important;
 }
 .services-grids{
 	float:left;
-	width: 27%;
-	margin: 0 4.1em 0 1em;
+	width: 25vw !important;
+	margin: 0 1.8vw 0 1.8vw !important;
 	border-top: 10px solid #c1c1c1;
 	padding-top: 2em;
 	padding-left: 1vw !important;
@@ -1043,6 +1044,7 @@ img.zoom-img:hover {
 }
 .services {
 	padding: 1em 0 6em 0;
+	margin-left: 4.3vw !important;
 }
 .blog {
 	padding: 1em 0 6em 0;
@@ -1315,6 +1317,7 @@ span.menu {
 }
 .services {
 	padding: 1em 0 3em 0;
+	margin-left: 4.3vw !important;
 }
 .services-grids.five {
 	display: none;
@@ -1409,7 +1412,7 @@ span.menu {
 	margin-left: 1.5em;
 }
 .header-logo  img{
-	height: 60px;
+	height: 40px;
 	width:auto;
 }
 .social-icons {
@@ -1899,6 +1902,7 @@ span.menu {
 }
 .services {
 	padding: 1em 0 0em 0;
+	margin-left: 4.3vw !important;
 }
 .services-grids {
 	width: 60%;
@@ -2069,4 +2073,15 @@ span.like {
 .contact h4 {
 	margin: 0 0 1em 0;
 }
+}
+#services_container {
+	width: 90vw !important;
+	margin: auto;
+}
+@media (max-width: 544px) {
+	.services-grids{
+		width: 70vw !important;
+		float: none !important;
+		margin: auto !important;
+	}
 }
